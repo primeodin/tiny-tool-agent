@@ -66,6 +66,20 @@ Three mysteries go away once you run this loop yourself:
 4. Run the tool. Append `Observation: <result>` to the transcript.
 5. Repeat until the answer or you hit the step budget.
 
+```text
+Question
+   |
+   v
+Thought ----> Action: name: input ----> Tool runs ----> Observation
+   ^                                                   |
+   +------------- loop (append Observation) -----------+
+   |
+   v
+Final Answer
+```
+
+Shop rule: the Thought is cheap talk until an Observation lands. If the Observation is wrong, every later Thought inherits the lie — fix the tool, don't yell at the model.
+
 ## Built-in tools
 
 | Tool | Input | Job |
@@ -103,7 +117,6 @@ Scoped tickets live in [Issues](https://github.com/primeodin/tiny-tool-agent/iss
 
 - **#1** — Add a `unit_convert` tool (C↔F) with a mock script path  
 - **#2** — `--trace` flag that numbers each Thought/Action/Observation step  
-- **#3** — ASCII diagram of the ReAct loop for the README  
 
 New to pull requests? Start at [first-commit-ai](https://github.com/primeodin/first-commit-ai), then come back.
 
