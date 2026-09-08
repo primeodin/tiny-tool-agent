@@ -113,7 +113,7 @@ python -m tiny_tool_agent --live "What is 19 * 21?"
 
 ## Help / good first issues
 
-Scoped tickets live in [Issues](https://github.com/primeodin/tiny-tool-agent/issues). Open contribution ideas:
+See [CONTRIBUTING.md](CONTRIBUTING.md) for fork → install → mock → PR. Scoped tickets live in [Issues](https://github.com/primeodin/tiny-tool-agent/issues). Open contribution ideas:
 
 - **#1** — Add a `unit_convert` tool (C↔F) with a mock script path  
 - **#2** — `--trace` flag that numbers each Thought/Action/Observation step  
