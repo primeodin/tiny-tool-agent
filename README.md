@@ -133,12 +133,13 @@ Tiny, tested teaching repos — starter → mid. Ship one, read it, then climb:
 | Starter tokenizer | [tiny-bpe-tokenizer](https://github.com/primeodin/tiny-bpe-tokenizer) | Watch text become token IDs — train, encode, decode |
 | Mid tool agent (this) | [tiny-tool-agent](https://github.com/primeodin/tiny-tool-agent) | ReAct: Thought, Action, Observation, Final Answer |
 | Mid prompt lab | [prompt-lab](https://github.com/primeodin/prompt-lab) | A/B eval: two prompts, fixed cases, score, winner |
+| Starter embeddings | [embedding-playground](https://github.com/primeodin/embedding-playground) | Cosine nearest neighbors you can see |
 | Attention mid | [attention-warrior](https://github.com/primeodin/attention-warrior) | Transformer attention you can hold in one hand |
 | Shop skills | [mister-jay](https://github.com/primeodin/mister-jay) | Interactive DIY drills — [live](https://primeodin.github.io/mister-jay/) |
 | Literacy (Sinhala) | [jay-ai-sinhala](https://github.com/primeodin/jay-ai-sinhala) | Friends 70+ learning GitHub + AI — [live](https://primeodin.github.io/jay-ai-sinhala/) |
 | Systems DIY | [camera-selector](https://github.com/primeodin/camera-selector) | NVR/Frigate camera planning — [live](https://primeodin.github.io/camera-selector/) |
 
-Weekday cadence, in order: chat CLI → RAG → tokenizer → **tool agent (this)** → **prompt lab (shipped)** → embeddings → vision → memory → shop-skill explainer.
+Weekday cadence, in order: chat CLI → RAG → tokenizer → **tool agent (this)** → prompt lab → **embedding playground (shipped)** → vision → memory → shop-skill explainer.
 
 Profile forge: [github.com/primeodin](https://github.com/primeodin)
 
