@@ -56,7 +56,7 @@ Three mysteries go away once you run this loop yourself:
 
 - why "agents" are mostly a while-loop with string conventions
 - why tool schemas matter more than prompt poetry
-- why a bad Observation poisons every later Thought
+- why a bad Observation poisons every later Thought — [hand-worked poison table](docs/bad-observation.md)
 
 ## The whole loop, in five lines
 
@@ -112,6 +112,8 @@ python -m tiny_tool_agent --live "What is 19 * 21?"
 | `cli.py` | Question in → transcript + Final Answer out |
 
 ## Help / good first issues
+
+Teaching note: [Why a bad Observation poisons every later Thought](docs/bad-observation.md).
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for fork → install → mock → PR. Scoped tickets live in [Issues](https://github.com/primeodin/tiny-tool-agent/issues). Open contribution ideas:
 
